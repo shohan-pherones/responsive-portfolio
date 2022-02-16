@@ -9,14 +9,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- favicon -->
     <link rel="shortcut icon" href="https://img.icons8.com/external-becris-lineal-color-becris/64/000000/external-user-coding-programming-becris-lineal-color-becris.png" type="image/x-icon">
-</head>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <!-- styles -->
+    <style>
+        body{
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
 <body>
     <!-- header starts -->
     <header>
         <!-- navbar starts -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-              <a class="navbar-brand" href="#">Responsive Portfolio</a>
+              <a class="navbar-brand fw-bold" href="#">Responsive Portfolio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -81,8 +91,66 @@
     </header>
     <!-- header ended -->
     <main>
-        
+        <section class="container">
+            <div>
+                <p class="h1 fw-bold mt-4 text-center text-dark">Responsive Portfolio</p>
+                <p class="fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam provident veritatis perferendis vitae omnis fugiat error! Quia est officiis quisquam itaque facere ab accusantium error ullam. A assumenda esse laudantium.</p>
+            </div>
+
+            <div class="mt-4 mb-4 flex-wrap d-flex justify-content-evenly">
+                <div class="card mb-5 shadow-sm" style="width: 18rem;">
+                    <img src="./images/dynamic-html.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Dynamic HTML</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, enim? In facilis, accusamus soluta ratione ex esse reprehenderit nam deleniti, minus libero cum maiores, eius ipsam laudantium quae quod vel!</p>
+                      <a href="#" class="btn btn-dark">Explore</a>
+                    </div>
+                </div>
+
+                <div class="card mb-5 shadow-sm" style="width: 18rem;">
+                    <img src="./images/text-girl-red.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Binary Minining</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, enim? In facilis, accusamus soluta ratione ex esse reprehenderit nam deleniti, minus libero cum maiores, eius ipsam laudantium quae quod vel!</p>
+                      <a href="#" class="btn btn-dark">Explore</a>
+                    </div>
+                </div>
+                <div class="card mb-5 shadow-sm" style="width: 18rem;">
+                    <img src="./images/text-girl-red.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Binary Minining</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, enim? In facilis, accusamus soluta ratione ex esse reprehenderit nam deleniti, minus libero cum maiores, eius ipsam laudantium quae quod vel!</p>
+                      <a href="#" class="btn btn-dark">Explore</a>
+                    </div>
+                </div>
+                <div class="card mb-5 shadow-sm" style="width: 18rem;">
+                    <img src="./images/dynamic-html.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Dynamic HTML</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, enim? In facilis, accusamus soluta ratione ex esse reprehenderit nam deleniti, minus libero cum maiores, eius ipsam laudantium quae quod vel!</p>
+                      <a href="#" class="btn btn-dark">Explore</a>
+                    </div>
+                </div>             
+            </div>
+        </section>
+
+        <section class="container">
+            <p class="h2 fw-bold mt-4 text-center text-dark">Contact Us</p>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Write your queries</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <a href="#" class="btn btn-dark">Submit</a>
+        </section>
     </main>
+    <!-- footer starts -->
+    <footer>
+        
+    </footer>
     <!-- bootstrap script bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
